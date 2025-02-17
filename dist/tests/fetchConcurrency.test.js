@@ -11,7 +11,7 @@ describe("fetchWithConcurrency", () => {
         consoleErrorSpy.mockRestore();
     });
     it("should fetch all URLs while respecting max concurrency", async () => {
-        const urls = ["https://api.test/1", "https://api.test/2", "https://api.test/3"]; // 3 URLs that doesnt exist
+        const urls = ["https://api.test/1", "https://api.test/2", "https://api.test/3"];
         const maxConcurrency = 2;
         const responses = await (0, fetchConcurrency_1.fetchWithConcurrency)(urls, maxConcurrency);
         expect(responses.length).toBe(urls.length);
