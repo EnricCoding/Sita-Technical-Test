@@ -37,8 +37,8 @@ This project provides two core functionalities:
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/EnricCoding/Sita-Test.git
-cd Sita-Test
+git clone https://github.com/EnricCoding/Sita-Technical-Test.git
+cd Sita-Test-V2
 ```
 
 ### 2️⃣ Install Dependencies
